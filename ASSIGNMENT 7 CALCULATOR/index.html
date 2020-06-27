@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container-fluid text-center ">
+     <h2>CALCULATOR</h2>
+    </div>
+    <br><br><br>
+
+    <div class="container-fluid text-center">
+        <input id="result" class="input"  type="text" >
+    </div>
+
+    <div class="container-fluid text-center box-1 py-2 ">
+        <button class="box" onclick="getnumber('7')">7</button>
+        <button class="box"onclick="getnumber('8')">8</button>
+        <button class="box"onclick="getnumber('9')">9</button>
+        <button class="box"onclick="getnumber('+')">+</button>
+    </div>
+
+    <div class="container-fluid text-center box-1 py-2">
+        <button class="box"onclick="getnumber('4')">4</button>
+        <button class="box"onclick="getnumber('5')">5</button>
+        <button class="box"onclick="getnumber('6')">6</button>
+        <button class="box"onclick="getnumber('-')">-</button>
+    </div>
+
+    <div class="container-fluid text-center box-1 py-2">
+        <button class="box"onclick="getnumber('1')">1</button>
+        <button class="box"onclick="getnumber('2')">2</button>
+        <button class="box"onclick="getnumber('3')">3</button>
+        <button class="box"onclick="getnumber('/')">/</button>
+        
+    </div>
+
+    <div class="container-fluid text-center box-1 py-2">
+        <button class="box"onclick="getnumber('0')">0</button>
+        <button class="box"onclick="getnumber('*')">*</button>
+        <button class="box"onclick="getnumber('.')">.</button>
+        <button class="box"onclick="getnumber('%')">%</button>
+        
+    </div>
+
+    <div class="container-fluid text-center box-1 py-2">
+        <button class="box new"onclick="clearresult('c')">c</button>
+        <button class="box new bg-success" onclick="getResult()">=</button>
+       
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>
